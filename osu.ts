@@ -22,7 +22,7 @@ export const downloadSongs = async (songs: number[], video: boolean, session: st
     console.log(`Downloading ${url} ...`)
     const response = await axios.get(url, {
       headers: {
-        cookie: `${session};`,
+        cookie: `osu_session=${session};`,
       },
       responseType: 'arraybuffer',
     })
