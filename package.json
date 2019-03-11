@@ -1,0 +1,24 @@
+{
+  "name": "osu-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build tsconfig.json"
+  },
+  "author": "cezarguimaraes",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "typescript": "^3.3.3333"
+  },
+  "bin": "dist/index.js"
+}
